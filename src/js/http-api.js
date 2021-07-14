@@ -1,5 +1,5 @@
 //Dirección y APIKEY de unsplash
-const accessKeyUnsplash = 'c_Xw0L2bBiZsQ4clEbqPue-JQPcBy-jSxRM6VPfsSZo';
+const accessKeyUnsplash = 'Escribe tu API';
 const APIUnsplash = ( valorQuery, APIkey ) => `https://api.unsplash.com/search/photos?query=${ valorQuery }&per_page=30&client_id=${ APIkey }`;
 
 //Elementos que tengo que coger del DOM
